@@ -6,8 +6,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <title>Portal Main Page</title>
 <style>
-div.fade-in { opacity: 1;  transition: 2s;}
-div.fade-out { opacity: 0;  transition: 2s;}
+
+li.fade-in { opacity: 1;  transition: 2s; }
+li.fade-out { opacity: 0;  transition: 2s; }
+
+.cardA li {margin-left: -40px; padding: 8px; font-size: 0.85em; height: 130px; text-align: justify;}
+.cardB li {margin-left: -40px; padding: 8px; font-size: 0.85em; height: 200px; border-style: solid; border-width: 1px;}
+.cardC li {margin-left: -40px; padding: 8px; font-size: 0.85em; height: 60px; 
 </style>
 </head>
 <body>
@@ -18,9 +23,6 @@ div.fade-out { opacity: 0;  transition: 2s;}
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
         <li class="nav-item disabled">
           <a class="nav-link" href="#">Products</a>
         </li>
@@ -28,7 +30,7 @@ div.fade-out { opacity: 0;  transition: 2s;}
           <a class="nav-link" href="#">Solutions</a>
         </li>
         <li class="nav-item disabled">
-          <a class="nav-link" href="#">Vision</a>
+          <a class="nav-link" href="#">About</a>
         </li>
       </ul>
     </div>
@@ -39,68 +41,112 @@ div.fade-out { opacity: 0;  transition: 2s;}
 
   <div class="container">
     <div class="row">
-    <div class="col-11" style="text-align: center;">
+    <div class="col-1"></div>
+    <div class="col-10" style="text-align: full;">
 	<p>A positive corporate culture can have many benefits for employees, including increased engagement and improved overall workplace wellness. When employees are healthy and happy, they are more likely to be productive and engaged in their work. To promote individual wellbeing and team building, our activities take a holistic approach to building a healthy workplace and improving the employee experience.</p>
     </div>
+    <div class="col-1"></div>
     </div>
     </div>
 
-  <div style="height: 345px; background-blend-mode: lighten; background-repeat: repeat no-repeat; background-size: 1080px 720px; background-image: url('https://media.istockphoto.com/id/1344872631/photo/portrait-of-a-group-of-confident-young-businesspeople-working-together-in-a-modern-office.jpg?b=1&s=170667a&w=0&k=20&c=b5s611E4oqhs67lv8a8wSXuiqN8ZL3mFSdV_8ZE5AAQ=')"
+  <div style="height: 345px; background-blend-mode: lighten; background-repeat: repeat no-repeat; background-position: center top; background-size: 1080px 720px; background-image: url('https://media.istockphoto.com/id/1344872631/photo/portrait-of-a-group-of-confident-young-businesspeople-working-together-in-a-modern-office.jpg?b=1&s=170667a&w=0&k=20&c=b5s611E4oqhs67lv8a8wSXuiqN8ZL3mFSdV_8ZE5AAQ=')"
 >.
   </div>
 
-  <div class="container" style="position: absolute; top: 250px; left: 50px; z-index: 111;">
-    <div class="row">
-<div id="f1" class="col-11" style="background-color: #f1f2f3; border-style: solid; border-width: 1px;">hello</div>
-</div></div>
-
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-6" style="background-color: #f1f3f5;"><p>adverts</p>
+  <div class="container mt-5" style="position: relative; top: -404px; z-index: 1;">
+<div class="row">
+<div class="col-2"></div>
+<div class="col-8">
+	<ol id="card0" class="cardC">
+<li>Wellness is a multi-faceted concept that encompasses seven dimensions: physical, emotional, intellectual, social, spiritual, environmental, and occupational.
+</li><li>Physical wellness involves maintaining healthy habits, such as exercise and proper nutrition, and recognizing and addressing symptoms of illness.
+</li><li>Emotional wellness involves cultivating an optimistic attitude, managing stress, and being able to express and experience a range of emotions.
+</li><li>Intellectual wellness involves engaging in stimulating mental activities and continuing to learn and improve skills.
+</li><li>Social wellness involves developing and maintaining healthy relationships, communicating effectively, and being an active member of one\'s community.
+</li><li>Spiritual wellness involves having a set of guiding values or beliefs that give purpose and meaning to one\'s life, and seeking connection with a higher power.
+</li><li>Environmental wellness involves respecting and protecting the natural world, and occupying and maintaining healthy spaces.
+</li><li>Occupational wellness involves finding fulfillment and enjoyment in one\'s work, and using one\'s skills and abilities to make a positive impact in the world.
+</li><li>To achieve overall wellness, it is important to prioritize and balance all seven dimensions.
+</li>
+	</ol>
+  </div>
 </div>
-<div class="col-1"></div>
-<div class="col-5"  style="background-color: #f7f9fa;">
-<div class="markdown prose w-full break-words dark:prose-invert light"><p>Here are the top 10 wellness web apps based on user reviews and ratings:</p><ol><li><p>Headspace (<a href="https://www.headspace.com/" target="_new">https://www.headspace.com/</a>) - This is a meditation and mindfulness app that helps users reduce stress and improve their overall well-being.</p></li><li><p>MyFitnessPal (<a href="https://www.myfitnesspal.com/" target="_new">https://www.myfitnesspal.com/</a>) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.</p></li><li><p>Happify (<a href="https://www.happify.com/" target="_new">https://www.happify.com/</a>) - This app offers evidence-based mental health and wellness programs, including stress management, resilience training, and sleep improvement.</p></li><li><p>Calm (<a href="https://www.calm.com/" target="_new">https://www.calm.com/</a>) - This is a popular mindfulness and meditation app that helps users reduce stress, improve sleep, and find inner peace.</p></li><li><p>Fitbit (<a href="https://www.fitbit.com/" target="_new">https://www.fitbit.com/</a>) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.</p></li><li><p>DailyBurn (<a href="https://www.dailyburn.com/" target="_new">https://www.dailyburn.com/</a>) - This app offers a wide range of workouts, including yoga, cardio, strength training, and more, as well as nutrition tracking and support from fitness experts.</p></li><li><p>Noom (<a href="https://www.noom.com/" target="_new">https://www.noom.com/</a>) - This app is a weight loss and wellness program that combines coaching, personalized meal plans, and habit tracking to help users achieve their health goals.</p></li><li><p>7 Minute Workout (<a href="https://www.7minuteworkout.com/" target="_new">https://www.7minuteworkout.com/</a>) - This app provides quick and effective workouts that can be done in just 7 minutes a day.</p></li><li><p>MyPlate by Livestrong (<a href="https://www.livestrong.com/myplate/" target="_new">https://www.livestrong.com/myplate/</a>) - This app is a comprehensive nutrition tracker that helps users monitor their food intake and reach their health goals.</p></li><li><p>Moodfit (<a href="https://www.moodfit.com/" target="_new">https://www.moodfit.com/</a>) - This app is a mental health and wellness program that helps users build resilience, improve their mood, and manage stress.</p></li></ol><p>I hope these apps are helpful in improving your overall wellness! Let me know if you have any other questions.</p></div>
+<div class="col-2"></div>
+</div>
+</div>
+
+
+
+  <div class="container mt-5" style="position: relative; top: -160px;">
+    <div class="row">
+      <div class="col-4" >
+	<p>General advice for healty mind and body</p>
+<ol id="card2" class="cardA"><li><p>Exercise and physical activity: This could include activities like running, yoga, or lifting weights.</p></li><li><p>Eating a healthy, balanced diet: This includes choosing a variety of whole, unprocessed foods and limiting your intake of sugar and unhealthy fats.</p></li><li><p>Getting enough sleep: It's important to aim for 7-9 hours of sleep per night to support your physical and mental health.</p></li><li><p>Managing stress: This could involve practices like meditation, deep breathing, or talking to a therapist.</p></li><li><p>Staying hydrated: Drinking enough water is important for maintaining energy levels and supporting overall health.</p></li><li><p>Practicing gratitude: Taking time to reflect on the things you're grateful for can improve your mood and overall well-being.</p></li><li><p>Participating in hobbies and activities you enjoy: Engaging in activities you find enjoyable and fulfilling can contribute to your sense of well-being.</p></li><li><p>Connecting with others: Building and maintaining social connections with friends and loved ones is an important aspect of wellness.</p></li><li><p>Taking breaks and engaging in self-care: It's important to carve out time to rest and recharge, whether that means taking a walk, reading a book, or taking a relaxing bath.</p></li><li><p>Seeking support when needed: If you're struggling with your mental health or well-being, it's important to reach out for help and support. This could include talking to a therapist or joining a support group.</p></li><li><p>Exercise and physical activity: This could include activities like running, yoga, or lifting weights.</p></li><li><p>Eating a healthy, balanced diet: This includes choosing a variety of whole, unprocessed foods and limiting your intake of sugar and unhealthy fats.</p></li><li><p>Getting enough sleep: It's important to aim for 7-9 hours of sleep per night to support your physical and mental health.</p></li><li><p>Managing stress: This could involve practices like meditation, deep breathing, or talking to a therapist.</p></li><li><p>Staying hydrated: Drinking enough water is important for maintaining energy levels and supporting overall health.</p></li><li><p>Practicing gratitude: Taking time to reflect on the things you're grateful for can improve your mood and overall well-being.</p></li><li><p>Participating in hobbies and activities you enjoy: Engaging in activities you find enjoyable and fulfilling can contribute to your sense of well-being.</p></li><li><p>Connecting with others: Building and maintaining social connections with friends and loved ones is an important aspect of wellness.</p></li><li><p>Taking breaks and engaging in self-care: It's important to carve out time to rest and recharge, whether that means taking a walk, reading a book, or taking a relaxing bath.</p></li><li><p>Seeking support when needed: If you're struggling with your mental health or well-being, it's important to reach out for help and support. This could include talking to a therapist or joining a support group.</p></li></ol>
+</div>
+<div class="col-4"><p>Tips for improving your diet</p>
+<ol id="card3" class="cardA"><li><p>Multivitamins: These are dietary supplements that contain a combination of essential vitamins and minerals. They can help fill nutrient gaps in your diet and support overall health.</p></li><li><p>Probiotics: These are beneficial bacteria that live in your gut and can help support digestion and immune function.</p></li><li><p>Protein powder: This is a dietary supplement that contains concentrated sources of protein, which is important for building and repairing tissues. It can be a convenient way to increase your protein intake, particularly if you have a busy lifestyle.</p></li><li><p>Omega-3 supplements: These supplements contain fatty acids that are important for heart health and brain function. They can be derived from fish or plant sources.</p></li><li><p>Vitamin D supplements: Vitamin D is important for bone health and may also have other health benefits. It can be difficult to get enough vitamin D from your diet alone, so supplements may be necessary, particularly if you have limited sun exposure.</p></li></ol>
+<ol id="card4" class="cardB"><li>ad 1</li>
+<li>ad 2</li><li>ad 3</li></ol>
+</div>
+<div class="col-4" >
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>Top 10 wellness web apps (based on user ratings)</p><ol id="card1" class="cardA"><li><p>Headspace (<a href="https://www.headspace.com/" target="_new">https://www.headspace.com/</a>) - This is a meditation and mindfulness app that helps users reduce stress and improve their overall well-being.</p></li><li><p>MyFitnessPal (<a href="https://www.myfitnesspal.com/" target="_new">https://www.myfitnesspal.com/</a>) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.</p></li><li><p>Happify (<a href="https://www.happify.com/" target="_new">https://www.happify.com/</a>) - This app offers evidence-based mental health and wellness programs, including stress management, resilience training, and sleep improvement.</p></li><li><p>Calm (<a href="https://www.calm.com/" target="_new">https://www.calm.com/</a>) - This is a popular mindfulness and meditation app that helps users reduce stress, improve sleep, and find inner peace.</p></li><li><p>Fitbit (<a href="https://www.fitbit.com/" target="_new">https://www.fitbit.com/</a>) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.</p></li><li><p>DailyBurn (<a href="https://www.dailyburn.com/" target="_new">https://www.dailyburn.com/</a>) - This app offers a wide range of workouts, including yoga, cardio, strength training, and more, as well as nutrition tracking and support from fitness experts.</p></li><li><p>Noom (<a href="https://www.noom.com/" target="_new">https://www.noom.com/</a>) - This app is a weight loss and wellness program that combines coaching, personalized meal plans, and habit tracking to help users achieve their health goals.</p></li><li><p>7 Minute Workout (<a href="https://www.7minuteworkout.com/" target="_new">https://www.7minuteworkout.com/</a>) - This app provides quick and effective workouts that can be done in just 7 minutes a day.</p></li><li><p>MyPlate by Livestrong (<a href="https://www.livestrong.com/myplate/" target="_new">https://www.livestrong.com/myplate/</a>) - This app is a comprehensive nutrition tracker that helps users monitor their food intake and reach their health goals.</p></li><li><p>Moodfit (<a href="https://www.moodfit.com/" target="_new">https://www.moodfit.com/</a>) - This app is a mental health and wellness program that helps users build resilience, improve their mood, and manage stress.</p></li></ol><p>I hope these apps are helpful in improving your overall wellness! Let me know if you have any other questions.</p></div>
 
       </div>
     </div>
   </div>
 
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 <script>
-const div = document.querySelector('#f1');
 
-var content = ['Headspace (https://www.headspace.com/) - This is a meditation and mindfulness app that helps users reduce stress and improve their overall well-being.',
-'MyFitnessPal (https://www.myfitnesspal.com/) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.',
-'Happify (https://www.happify.com/) - This app offers evidence-based mental health and wellness programs, including stress management, resilience training, and sleep improvement.',
-'Calm (https://www.calm.com/) - This is a popular mindfulness and meditation app that helps users reduce stress, improve sleep, and find inner peace.',
-'Fitbit (https://www.fitbit.com/) - This app is a comprehensive fitness tracker that helps users track their workouts, monitor their nutrition, and reach their fitness goals.',
-'DailyBurn (https://www.dailyburn.com/) - This app offers a wide range of workouts, including yoga, cardio, strength training, and more, as well as nutrition tracking and support from fitness experts.',
-'Noom (https://www.noom.com/) - This app is a weight loss and wellness program that combines coaching, personalized meal plans, and habit tracking to help users achieve their health goals.',
-'7 Minute Workout (https://www.7minuteworkout.com/) - This app provides quick and effective workouts that can be done in just 7 minutes a day.',
-'MyPlate by Livestrong (https://www.livestrong.com/myplate/) - This app is a comprehensive nutrition tracker that helps users monitor their food intake and reach their health goals.',
-'Moodfit (https://www.moodfit.com/) - This app is a mental health and wellness program that helps users build resilience, improve their mood, and manage stress.'
-];
-var ci = -1;
-//alert(content.length);
 
-function fadeIn() {
-  ci = (ci + 1) % content.length;
-  div.innerText = content[ci];
-  div.classList.add('fade-in');
-  div.classList.remove('fade-out');
-  setTimeout(fadeOut, 5000);
+
+function fadeElementOut(liElements, i) {
+//	alert("Out i:"+i);
+
+	var thisElement = liElements[i];
+	thisElement.classList.remove('fade-in');
+	thisElement.classList.add('fade-out');
+        setTimeout(fadeElementIn, 2000, liElements, i);
 }
 
-function fadeOut() {
-  div.classList.add('fade-out');
-  div.classList.remove('fade-in');  
-  setTimeout(fadeIn, 2000);
+function fadeElementIn(liElements, i){
+        var l = liElements.length;
+	var nexti= (i+1) % l;
+//	alert("In i:"+i+" nexti:"+nexti);
+
+	var nextElement = liElements[nexti];
+	var lastElement = liElements[i];
+	lastElement.style.display="none";
+	
+	nextElement.classList.add('fade-in');
+	nextElement.classList.remove('fade-out');
+	nextElement.style.display="block";
+
+	nextElement.style.backgroundColor=cardColours[i%3];
+
+	
+        setTimeout(fadeElementOut, 60000 / l, liElements, nexti);
 }
 
-fadeIn();
+// ul#ID li
+function condenseList(selector)
+{
+	var liElements = document.querySelectorAll(selector);
+	liElements.forEach((e)=>{
+		e.style.display = "none";
+	});
+
+	fadeElementIn(liElements, 0);
+}
+
+var cardColours = ["#F1e2d3","#C5E4F8","#E6ECF2"];
+
+condenseList("ol#card1 li");
+condenseList("ol#card2 li");
+condenseList("ol#card3 li");
+condenseList("ol#card4 li");
+condenseList("ol#card0 li");
 
 </script>
 
