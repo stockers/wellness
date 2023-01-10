@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="keywords" content="gomammy,go mammy,wellness,wellbeing,improve health,improve mental health,improve physical health,improve diet,reduce stress,reduce anxiety,workplace problems,home problems,social pressures,financial worries,financial pressure,coping mechanism,life coach,health monitoring,fitnes coaching," />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <meta name="description" content="A positive corporate culture benefits employees and employer. When employees are healthy and happy, they are more likely to be productive and engaged in their work. We take a holistic approach to building a healthy workplace and improving the employee experience, from improvements in fitness, diet, reducing anxiety, stress, to financial worries and social pressures. These products and solutions help towards the mental and physical fitness of the workforce." />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>GoMammy Wellness Portal</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">GoMammy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item disabled">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item disabled">
+          <a class="nav-link" href="#">Solutions</a>
+        </li>
+        <li class="nav-item disabled">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br/><br/><br/><br/><br/>
+  <div class="container">
+   <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10" style="text-align: full;">
+     <p>Please enter your credentials to log into the portal</p>
+    </div>
+    <div class="col-1"></div>
+   </div>
+   <div class="row">
+    <div class="col-1"></div>
+    <div class="col-2" style="text-align: full;">
+	<p>Username: </p>
+	<p>Password: </p>
+    </div>
+    <div class="col-3" style="text-align: full;">
+	<p><input id="un" type="text" /></p>
+	<p><input type="password" /></p>
+	<button class="btn btn-outline-primary" onclick="submit()";>Log in</button>
+    </div>
+    <div class="col-1"></div>
+   </div>
+   <div class="row" >
+    <div class="col-1"></div>
+    <div class="col-10" style="text-align: full;">
+	<br/><p id="ms" style="color: red; display: none;">Unable to log in, please check username and password</p>
+    </div>
+    <div class="col-1"></div>
+   </div>
+  </div>
+  <script>document.getElementById("un").focus();function submit(){document.getElementById("ms").style.display="block";}</script>
+</body>
+</html>
